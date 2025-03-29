@@ -5,7 +5,6 @@ Este projeto implementa um carrinho de compras inspirado na Shopee, desenvolvido
 ## 🚀 Tecnologias Utilizadas
 
 - Node.js
-- Express.js
 - JavaScript (ES6+)
 - JSON para armazenamento temporário
 
@@ -13,7 +12,6 @@ Este projeto implementa um carrinho de compras inspirado na Shopee, desenvolvido
 
 - Adicionar itens ao carrinho
 - Remover itens do carrinho
-- Atualizar a quantidade de um item
 - Cálculo automático do subtotal
 - Listagem dos itens no carrinho
 
@@ -35,11 +33,3 @@ Este projeto implementa um carrinho de compras inspirado na Shopee, desenvolvido
    ```sh
    npm start
    ```
-
-## 🔗 Rotas da API
-
-- **GET /cart** → Lista todos os itens no carrinho
-- **POST /cart** → Adiciona um item ao carrinho
-- **PUT /cart/:id** → Atualiza a quantidade de um item no carrinho
-- **DELETE /cart/:id** → Remove um item do carrinho
-
